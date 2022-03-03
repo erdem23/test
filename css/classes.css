@@ -1,0 +1,37 @@
+button {
+  background: #fb8f1d;
+  color: white;
+  border: none;
+  width: 132px;
+  height: 44px;
+  border-radius: 8px;
+  border: 3px solid #fb8f1d;
+  color: white;
+  transition: 1s;
+}
+button:hover {
+  color: #fb8f1d;
+  background: transparent;
+  transition: 0.3s;
+}
+.container {
+  max-width: 1219px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+}
+.link {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 17px;
+  color: #fb8f1d;
+}

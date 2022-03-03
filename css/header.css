@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        .menu{
+            align-items: center;
+            display: flex;
+            list-style: none;
+
+        }
+        .content{
+            display: flex;
+            justify-content: space-between;
+        }   
+                .menu li{
+                    margin-left: 34px;
+                    color: #B8BECD;
+                    font-size: 16px;
+                    font-family: Inter;
+                    transition: 2s; 
+                }
+        button{
+            display: flex;
+            background: #FB8F1D;
+            color: white;
+            border: none;
+            width: 132px;
+            height: 44px;
+            border-radius: 8px;
+            border:3px solid #FB8F1D ;
+            color: white;
+            transition: 1s; 
+
+        }
+.menu li:hover{
+   box-shadow: 0 0 30px;
+   color:#1ABE84;
+   transition: 0.3s;    
+   background: grey;
+}
+
+button:hover{
+    color: #FB8F1D ;
+    background:transparent;
+    transition: 0.3s; 
+    
+
+
+}

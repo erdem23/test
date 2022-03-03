@@ -1,0 +1,46 @@
+
+.hero__title1{
+    font-family: "Playfair Display";
+    font-size: 64px;
+    font-weight: bold;
+    color: #202336;
+    
+}
+.hero__subtitle1{
+    font-family: "inter" ;
+    color: #202336;
+    font-weight: 600px;
+    font-size: 22px;
+    margin-top: 74px;
+}
+
+.hero1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn.hero__btn1{
+    margin-top: 51px;
+}
+
+
+ .hero__select1{
+    width: 200px;
+    height: 52px;
+    font-family: Inter;
+    font-size: 15px;
+    border-radius: 6px;
+    color:#4a4c53 ;
+    border:.8px solid #afb0b9;
+    border-radius: 6px;    
+ }
+.hero__selector{
+    max-width:470px;
+}
+.hero__select1{
+    margin-top: 35px;
+    margin-right: 30px;
+}
+/*.hero__btn{
+    margin-top: 51px;
+}*/
